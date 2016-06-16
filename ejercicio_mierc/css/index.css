@@ -1,0 +1,19 @@
+
+p.introduccion,
+h2.introduccion,
+h1.introduccion{
+  color: white;
+  background-color: #7B1FA2;
+  font-family: "Arial", "Verdana";
+  font-size: 20pt;
+  line-height: 2;
+}
+
+p.introduccion a{/*Todos los links que estén dentro de los contenedores de párrafo "p"*/
+  color: #BA68C8;/*Cambia el color de la fuente*/
+  text-decoration: none; /*Sirve para quitar el subrayado de los links*/
+}
+
+a:visited{
+  color: #0097A7;
+}
