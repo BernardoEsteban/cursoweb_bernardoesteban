@@ -1,0 +1,54 @@
+body{
+	background-color: #6a1b9a;
+	color: #ce93d8;
+	text-align: justify;
+	font-family: "Calibri","Helvetica";
+	font-size: 25px;
+}
+
+h1{
+	color: #ff4081;
+	text-align: center;
+	font-family: "Calibri","Helvetica";
+}
+
+
+img{
+	display: block;
+	margin: auto;
+	border:  #880e4f 5px solid;
+	border-radius: 20px;
+	width: 600px;
+	height: 300px;
+}
+
+img.instituto{
+	display: block;
+	margin: auto;
+	border:  #880e4f 5px solid;
+	border-radius: 20px;
+	width: 400px;
+	height: 270px;
+}
+
+a{
+	text-decoration: none;
+	font-family: "Calibri","Helvetica";
+	color: #f06292;
+}
+
+a.liga-interna{
+	text-decoration: none;
+	color: #ffffff;
+	font: "Verdana";
+	background-color: #ff4081;
+	border: #f50057 3px solid;
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+	width:150px;
+	height: 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
