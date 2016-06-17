@@ -1,0 +1,62 @@
+h1{
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+body{
+	margin: 0;
+	margin-top: -20px;
+	height: 100%;
+	padding: 0;
+	background: #E53935;
+	font-family: "Calibri","Verdana";
+	color: #EF9A9A;
+	font-size: 28px;
+}
+
+.titulo_principal{
+	background-color: #B71C1C;
+}
+
+.menu-navegacion{
+	text-align: center;
+}
+
+.menu-navegacion ul{
+	margin: 10px;
+	padding: 10px;
+}
+
+.menu-navegacion li{
+	display: inline;
+}
+
+.menu-navegacion a{
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: #B71C1C;
+	background-color: #EF9A9A;
+	border: 3px solid;
+	border-radius: 10px;
+	border-color: #D32F2F;
+}
+
+.menu-navegacion li.activo a,
+.menu-navegacion li:hover a{
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #FFCC80;
+	border-color: #E65100;
+}
+
+.naranja{
+  color: #FF9800;
+}
+
+.circulo{
+  border: #BF360C 5px solid;
+  border-radius: 10px;
+  margin-left: 480px;
+}
