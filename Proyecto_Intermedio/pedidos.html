@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos-contacto.css">
+    <title>Los Trompos</title>
+  </head>
+  <body>
+    <div>
+    </div>
+    
+    <div class="menu-navegacion">
+      <ul>
+        <li> <img src="imagenes/trompos.JPG" alt="Los Trompos"></li>
+        <li> <a href="index.html" class="opcion">Inicio</a></li>
+        <li> <a href="promociones.html" class="opcion">Promociones</a></li>
+        <li> <a href="ubicacion.html" class="opcion">Ubicación</a></li>
+        <li> <a href="pedidos.html" class="opcion">Pedidos</a></li>
+      </ul>
+    </div>
+    
+    <div class="orden">
+      <div class="titulo">
+        <h1>Taquería "Los Trompos"</h1>
+        <h2>Realiza aquí tu pedido</h2>
+      </div>  
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+      </div><br>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Número de mesa</label>
+        <input type="text" class="form-control" id="mesa" placeholder="Ingresa tu número de mesa">
+      </div><br>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Número de personas</label>
+        <input type="text" class="form-control" id="personas" placeholder="Ingresa el número de personas en tu mesa">
+      </div><br>
+      
+      <div class="platillos">
+        Escoge aquí tus platillos:
+        <br><br>
+      </div>
+
+      <!--
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" id="platillo1"> Orden de pastor rojo (5 tacos)
+        </label>
+        <label>
+          <input type="checkbox" id="platillo2"> Orden de pastor natural (5 tacos)
+        </label>
+        <label>
+          <input type="checkbox" id="platillo3"> Orden de pastor extra picante (5 tacos)
+        </label>
+        <br><br>
+      </div>
+      -->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="..." id="ordenrojo">  Orden de pastor rojo (6 tacos)
+            </span>
+            <input type="text" class="form-control" aria-label="..." placeholder="Ingresa el número de órdenes" id="no_ordrojo">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="..." id="ordennat">  Orden de pastor natural (6 tacos)
+            </span>
+            <input type="text" class="form-control" aria-label="..." placeholder="Ingresa el número de ordenes" id="no_ordnat">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="..." id="ordenexp">  Orden de pastor extra picante (6 tacos)
+            </span>
+            <input type="text" class="form-control" aria-label="..." placeholder="Ingresa el número de ordenes" id="no_ordexp">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+        <br><br>
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="..." id="indrojo">  Taco de pastor rojo 
+            </span>
+            <input type="text" class="form-control" aria-label="..." placeholder="Ingresa el número de tacos" id="no_indrojo">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="..." id="indnat">  Taco de pastor natural
+            </span>
+            <input type="text" class="form-control" aria-label="..." placeholder="Ingresa el número de tacos" id="no_indnat">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="input-group">
+            <span class="input-group-addon">
+              <input type="checkbox" aria-label="..." id="indexp">  Taco de pastor extra picante
+            </span>
+            <input type="text" class="form-control" aria-label="..." placeholder="Ingresa el número de tacos" id="no_indexp">
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <br>
+      <div class="notas">
+        Si quieres hacer un comentario sobre tu orden o el servicio lo puedes hacer aquí: <br>
+        <input type="text" id="nota">
+      </div>
+      <br><br>
+      <button type="submit" id="envio" class="btn btn-danger">Enviar orden</button>
+
+    </div>
+
+    <div id="agrega"> </div>
+
+    <div class="pie-de-pag">
+      <img src="imagenes/trompos.JPG" alt="Los Trompos">
+      <ul>
+        <li>Facebook: Los Trompos</li>
+        <li>Twitter: @LosTrompos</li>
+        <li>Tel: 5623512453</li>
+      </ul>
+      <span>Los Trompos, todos los derechos reservados. 2016.</span>
+    </div>
+
+    <!--Librería jQuery-->
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script></script>
+  <!--Librería Bootstrap-->
+  <script src="js/bootstrap.js"></script>
+  <script src="js/formulario.js"></script>
+    
+  </body>
+</html>
